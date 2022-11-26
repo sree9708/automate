@@ -11,8 +11,8 @@ spec:
   metadata:
     labels:
      app: argo-web
-  spec: 
-   containers:
+  spec:  
+ containers:
    - name: c1
      image: "sree1608/test:v20"
      imagePullPolicy: Always
